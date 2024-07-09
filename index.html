@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>&#x1F34C;Экзотические фрукты</title>
+</head>
+
+<body>
+  <main>
+    <section class="panel__wrapper">
+      <h2 class="wrapper__title">⚙️ Панель управления</h2>
+
+      <div class="panel__devtools">
+        <button class="shuffle__btn line">Перемешать</button>
+
+        <div class="line">
+          <div>минимальный ⚖️:</div>
+          <input class="minweight__input" />
+        </div>
+
+        <div class="line">
+          <div>максимальный ⚖️:</div>
+          <input class="maxweight__input" />
+        </div>
+
+        <button class="filter__btn line">Фильтровать</button>
+
+        <div class="line">
+          <span>Алгоритм сортировки:</span>
+          <span class="sort__kind"></span>
+        </div>
+
+        <div class="line">
+          <span>Время сортировки: </span>
+          <span class="sort__time"></span>
+        </div>
+
+        <button class="sort__change__btn line">Сменить алгоритм сортировки</button>
+
+        <button class="sort__action__btn line">Сортировать</button>
+
+        <div class="line">
+          <div>название:</div>
+          <input class="kind__input" />
+        </div>
+
+        <div class="line">
+          <div>🎨:</div>
+          <select class="color__input">
+            <option value=""></option>
+            <option value="красный">❤️</option>
+            <option value="зеленый">💚</option>
+            <option value="желтый">💛</option>
+            <option value="оранжевый">🧡</option>
+            <option value="фиолетовый">💜</option>
+            <option value="розовый">🩷</option>
+            <option value="коричневый">🤎</option>
+          </select>
+        </div>
+
+        <div class="line">
+          <div>⚖️:</div>
+          <input class="weight__input" />
+        </div>
+
+        <button class="add__action__btn line">Добавить фрукт</button>
+      </div>
+    </section>
+
+    <section class="fruits__wrapper">
+      <h2 class="wrapper__title">🥑 Список экзотических фруктов</h2>
+     
+      <ul class="fruits__list">
+        
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
